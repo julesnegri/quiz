@@ -1,33 +1,196 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+  "bg": "/assets/background/img.jpg",
+  "bgs": [
+      "/assets/background/img-1.jpg",
+      "/assets/background/img-2.jpg",
+      "/assets/background/img-3.png",      
+      "/assets/background/img-4.jpg",      
+      "/assets/background/img-5.jpg",      
+      "/assets/background/img-6.jpg",      
+      "/assets/background/img-7.jpg",      
+      "/assets/background/img-8.jpg",      
+      "/assets/background/img-9.jpg",      
+      "/assets/background/img-10.jpg",      
+      "/assets/background/img-11.jpg",      
+      "/assets/background/img-12.jpg",      
+      "/assets/background/img-13.jpg",      
+      "/assets/background/img-14.jpg",      
+      "/assets/background/img-15.jpg",
+      "/assets/background/img-16.png"      
+  ],
   "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "description": "Quiz de Supernatural: Vamos ver!! Quem é fã de verdade.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "/assets/question/img-1.jpg",
+      "title": "Qual dos cavaleiros Sam matou?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Praga",
+        "Guerra",
+        "Fome"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/LAPgyvIKblMyY/giphy.gif",
+      "title": "Qual a fobia de Dean?",
+      "description": "Essa é pra aquecer",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Medo de avião",
+        "Medo de palhaço",
+        "Medo de aranhas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/jPDmjSXS4vsdy/giphy.gif",
+      "title": "Como matar um vampiro?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        "Tiro na a cabeça",
+        "Estaca no coração",
+        "Decapitação"
+      ]
+    },
+    {
+      "image": "/assets/question/img-4.png",
+      "title": "Qual desses atores teve uma empresa de software antes da série?",
+      "description": "Nem eu sabia! Mas ratio",
+      "answer": 2,
+      "alternatives": [
+        "Jared Padalecki (Sam)",
+        "Jesen Ackles (Dean)",
+        "Misha Collins (Castiel)"
+      ]
+    },
+    {
+      "image": "/assets/question/img-5.png",
+      "title": "Qual o nome da mãe dos irmãos Winchester?",
+      "description": "Nem eu sabia! Mas ratio",
+      "answer": 0,
+      "alternatives": [
+        "Mary",
+        "Magaly",
+        "Mariah"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/JlVkLKuxRSvLy/giphy.gif",
+      "title": "Data de nascimento de Dean?",
+      "description": "Essa só para quem é fã",
+      "answer": 2,
+      "alternatives": [
+        "24 de março de 1979",
+        "27 de março de 1979",
+        "24 de janeiro de 1979"
+      ]
+    },
+    {
+      "image": "/assets/question/img-7.jpg",
+      "title": "Qual foi a primeira caça dos irmãos na série?",
+      "description": "Essa só para quem é fã",
+      "answer": 0,
+      "alternatives": [
+        "Mulher de branco",
+        "Vampiro",
+        "Fantasma"
+      ]
+    },
+    {
+      "image": "/assets/question/img-8.jpg",
+      "title": "O que significa a sigla FBI na série?",
+      "description": "Essa só para quem é fã",
+      "answer": 1,
+      "alternatives": [
+        "Departamento Federal de Investigação",
+        "Agência Federal de Justiça",
+        "Agência Federal de Investigação"
+      ]
+    },
+    {
+      "image": "/assets/question/img-9.jpg",
+      "title": "Quem mata Dean na 3 temporada?",
+      "description": "Essa só para quem é fã",
+      "answer": 0,
+      "alternatives": [
+        "Cão do inferno",
+        "Lucifer",
+        "Demônio"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/IiSUAkIL78feg/giphy.gif",
+      "title": "Qual a fobia do Sam?",
+      "description": "Sério...",
+      "answer": 2,
+      "alternatives": [
+        "Medo de altura",
+        "Medo de aranhas",
+        "Medo de Palhaço"
+      ]
+    },
+    {
+      "image": "/assets/question/img-11.jpg",
+      "title": "Em qual temporada Dean morre pela primeira vez?",
+      "description": "Sério...",
+      "answer": 1,
+      "alternatives": [
+        "1 temporada",
+        "3 temporada",
+        "4 temporada"
+      ]
+    },
+    {
+      "image": "/assets/question/img-12.jpg",
+      "title": "Qual o último selo para abrir a jaula de Lúcifer?",
+      "description": "Sério...",
+      "answer": 0,
+      "alternatives": [
+        "Matar Lilith",
+        "Matar um dêmonio",
+        "Matar um anjo"
+      ]
+    },
+    {
+      "image": "/assets/question/img-13.jpg",
+      "title": "Que salvou Dean do inferno?",
+      "description": "Sério...",
+      "answer": 2,
+      "alternatives": [
+        "Sam",
+        "Bobby",
+        "Castiel"
+      ]
+    },
+    {
+      "image": "/assets/question/img-14.jpg",
+      "title": "Como se chama o pai de Dean e Sam?",
+      "description": "Sério...",
+      "answer": 1,
+      "alternatives": [
+        "Antony Winchester",
+        "John Winchester",
+        "Bobby Winchester"
+      ]
+    },
+    {
+      "image": "/assets/question/img-15.jpg",
+      "title": "Qual dos atores já trabalhou na série com sua esposa?",
+      "description": "Sério...",
+      "answer": 2,
+      "alternatives": [
+        "Jared Padalecki",
+        "Jensen Ackles",
+        "Jensen Anckles e Jared Padalecki"
       ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+    "https://pinkfloyd-quiz.denismend.vercel.app/"
   ],
   "theme": {
     "colors": {
