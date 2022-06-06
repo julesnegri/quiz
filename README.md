@@ -15,7 +15,7 @@
 ## :dart: Objetivo
 
 Com a proposta de nos mostrar como nextjs funciona, a [Alura](https://www.alura.com.br/) propôs a criação de uma aplicação para aplicar os conceitos desse framework que vem ganhando muito espaço no mercado nos útimos anos.
-Foram aulas muito gratificante de serem feitas, apresentando conceitos do React e Nextjs, como os instrutores trazendo sua visão de mercado e boas práticas.
+Foram aulas muito gratificantes de serem feitas, apresentando conceitos do React e Nextjs, como os instrutores trazendo sua visão de mercado e boas práticas.
 Sendo assim a ideia é construir um app de perguntas e respostas, o famigerado Quiz. O tema do projeto é livre, e decidi fazer um quiz da serie SUPERNATURAL. :)
 
 ## :hammer_and_wrench: Ferramentas
@@ -67,4 +67,4 @@ yarn start
 
 ## :eyeglasses: Demo em produção
 
-[Link de acesso 👻:](https://quiz-negri.vercel.app/)
+[Link de acesso 👻](https://quiz-negri.vercel.app/)
