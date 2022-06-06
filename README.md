@@ -1,9 +1,9 @@
-<!--
+
 <div align="center">
-	<img src="public/banner.png" with="800" height="200"/>
+	<img src="public/assets/background/poster-of-supernatural-2020_1336x768.jpg" with="800" height="200"/>
 	<h1>Quiz</h1>
 </div>
-
+<!--
 ![Badge](https://img.shields.io/badge/Quiz-CDZ-%23542F61?style=for-the-badge&logo=appveyor)
 ![Badge](https://img.shields.io/badge/Version-0.1.0-%23542F61?style=for-the-badge&logo=appveyor)
 ![Badge](https://img.shields.io/badge/React-v16.18.0-%233570B2?style=for-the-badge&logo=appveyor)
