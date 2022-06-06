@@ -1,78 +1,70 @@
-# Example app with styled-components
+<!--
+<div align="center">
+	<img src="public/banner.png" with="800" height="200"/>
+	<h1>Quiz</h1>
+</div>
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
+![Badge](https://img.shields.io/badge/Quiz-CDZ-%23542F61?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/Version-0.1.0-%23542F61?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/React-v16.18.0-%233570B2?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/Node-v14.15.4-%2300B98E?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/Npm-v6.14.10-%2300B98E?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/Deploy-Vercel-%23542F61?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/apm/l/npm?style=for-the-badge)
+-->
+## :dart: Objetivo
 
-For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
+Com a proposta de nos mostrar como nextjs funciona, a [Alura](https://www.alura.com.br/) propôs a criação de uma aplicação para aplicar os conceitos desse framework que vem ganhando muito espaço no mercado nos útimos anos.
+Foram aulas muito gratificante de serem feitas, apresentando conceitos do React e Nextjs, como os instrutores trazendo sua visão de mercado e boas práticas.
+Sendo assim a ideia é construir um app de perguntas e respostas, o famigerado Quiz. O tema do projeto é livre, e decidi fazer um quiz da serie SUPERNATURAL. :)
 
-## Deploy your own
+## :hammer_and_wrench: Ferramentas
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+-   [Nextjs](https://nextjs.org/)
+-   [Styled Components](https://styled-components.com)
+-   [Styled Icons](https://styled-icons.js.org/)
+-   [Vercel](https://vercel.com)
+-   [Yarn](https://yarnpkg.com/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
+## :desktop_computer: Padronização de código
 
-## How to use
+-   [Eslint](https://eslint.org/)
+-   [Prettier](https://prettier.io/)
+-   [EditorConfig](https://editorconfig.org/)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## :art: Animações
 
+-   [Lottie](https://lottiefiles.com/)
+-   [Motion](https://www.framer.com/motion/)
+
+## :rocket: Executando o projeto
+
+➡️ **Download do projeto**
 ```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
+git clone https://github.com/julesnegri/quiz.git
+```
+➡️ **Acessando a pasta do projeto depois do clone do projeto**
+```bash
+cd quiz
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-### Try it on CodeSandbox
-
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
-
-### Notes
-
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
-
-<details>
-<summary>Click to expand workaround example</summary>
-<br />
-
-**components/StyledLink.js**
-
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
-
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
-
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-
-  &:hover {
-    color: #40a9ff;
-  }
-
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
+➡️ **Instalando Dependências**
+```bash
+yarn install
 ```
-
-**pages/index.js**
-
-```javascript
-import StyledLink from '../components/StyledLink'
-
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
+➡️ **Iniciando o projeto**
+```bash
+yarn start
 ```
+<!--
+## :heavy_check_mark: Features Desenvolvidas
 
-</details>
+-   [x] Contagem de pontos
+-   [x] Timer para cada pergunta
+-   [x] Modal de Game Over
+-   [x] Ranking de pontuação 
+-->
+
+## :eyeglasses: Demo em produção
+
+[Link de acesso 👻:](https://quiz-negri.vercel.app/)
